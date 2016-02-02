@@ -1,0 +1,191 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #E4E4E4;
+}
+
+/* Navigation Bar */
+
+#nav-bar {
+    width: 100%;
+    background-color: #000E3C;
+    height: 80px;
+    position: fixed;
+    z-index: 10;
+}
+
+.nav {
+    display: inline-block;
+    margin-top: 1%;
+}
+
+#search {
+    width: 40px;
+    margin-left: 3%;
+}
+
+#logo {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+.nav.sections {
+    margin-left: 4%;
+    color: white;
+    cursor: pointer;
+}
+
+#sign {
+    margin-left: 24%;
+}
+
+.user {
+    margin-left: 3%;
+    color: #575757;
+    cursor: pointer;
+}
+
+/* Today's Date */
+
+#current-date {
+    position: absolute;
+    top: 16%;
+    left: 10%;
+    font-size: 14px;
+    color: #575757;
+}
+
+/* Slides */
+
+#slides .featured .featured-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#slides {
+    width: 50%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    cursor: pointer;
+}
+
+.text-container {
+    background-color: white;
+    padding: 20px 30px;
+    line-height: 1.5;
+}
+
+.date {
+    color: #53585F;
+    font-size: 12px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.blurb {
+    font-size: 14px;
+}
+
+.arrow {
+    position: absolute;
+    width: 4%;
+    top: 32%;
+}
+
+#right-arrow {
+    right: 1%;
+}
+
+#left-arrow {
+    left: 1%;
+}
+
+/* Graph and Advertisement */
+
+#graph-img {
+    width: 100%;
+}
+
+#ad {
+    background-color: #320914;
+    height: 100%;
+    margin-top: 6%;
+}
+
+#ad-text {
+    color: #C6C6C6;
+    font-size: 14px;
+    padding: 2% 4%;
+}
+
+#side-container {
+    top: 20%;
+    width: 28%;
+    right: 10%;
+    position: absolute;
+    height: 46%;
+}
+
+/* Articles */
+
+.article {
+    width: 28%;
+    background-color: white;
+    display: inline-block;
+    margin-right: 2%;
+    cursor: pointer;
+}
+
+.article-img {
+    display: block;
+    width: 100%;
+}
+
+#article-container {
+    top: 105%;
+    position: absolute;
+    left: 10%;
+    margin-bottom: 5%;
+}
+
+.article-title {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.article-blurb {
+    font-size: 14px;
+}
+
+.article-text {
+    line-height: 1.5;
+    padding: 15px 25px;
+}
+
+#row2 {
+    margin-top: 2%;
+}
+
+/* Market */
+
+#market-title {
+    color: #53585F;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 3;
+}
+
+.table {
+    width: 28%;
+    margin-right: 2%;
+}
