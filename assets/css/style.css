@@ -285,30 +285,38 @@ body {
   and (orientation: portrait) { 
 
     #sign {
-        margin-left: 9%;
+        margin-left: 67%;
     }
 
     #nav-bar {
-        height: 100px;
+        height: 125px;
+    }
+
+    .user {
+        color: #E3E3E3;
+        font-size: 30px;
+        padding: 24px;
+        background-color: rgba(0,0,0,0.7);
     }
 
     .nav {
-        margin-top: 2%;
+        margin-top: 3%;
     }
 
-    .sections {
-        font-size: 20px;
+    .nav.sections {
+        font-size: 30px;
+        margin-left: 2%;
     }
 
     #logo {
-        font-size: 40px;
+        font-size: 60px;
         margin-left: 2%;
     }
 
     #slides {
         width: 100%;
         left: 0;
-        top: 6%;
+        top: 7%;
     }
 
     .blurb {
@@ -321,6 +329,10 @@ body {
         top: -10%;
         position: absolute;
         margin-left: 108%;
+    }
+
+    .text-container {
+        padding: 30px 40px;
     }
 
     #side-container {
@@ -350,6 +362,14 @@ body {
 
     .date {
         font-size: 25px;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+
+    .blurb {
+        font-size: 30px;
     }
 
 }
