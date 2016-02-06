@@ -326,7 +326,7 @@ body {
 
     #ad {
         width: 121%;
-        height: 88%;
+        height: 92%;
         top: -10%;
         position: absolute;
         margin-left: 108%;
@@ -350,7 +350,7 @@ body {
     }
 
     #article-container {
-        top: 97%;
+        top: 99%;
     }
 
     .article-blurb {
@@ -378,7 +378,7 @@ body {
     }
 
     #side-container {
-        top: 81%;
+        top: 80%;
     }
 
 }
