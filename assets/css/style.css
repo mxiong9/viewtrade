@@ -256,11 +256,11 @@ body {
 
 }
 
-/* iPhone 6 */
+/* iPhones (iPhone 6 tested only) */
 
 @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
+  and (min-device-width: 320px) 
+  and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
 
@@ -279,8 +279,8 @@ body {
 }
 
 @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
+  and (min-device-width: 320px) 
+  and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
 
