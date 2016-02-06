@@ -190,7 +190,11 @@ body {
     margin-right: 2%;
 }
 
+
 /* Media Queries */
+
+
+/* iPads */
 
 @media only screen 
   and (min-device-width: 768px) 
@@ -248,6 +252,104 @@ body {
 
     #article-container {
         top: 80%;
+    }
+
+}
+
+/* iPhone 6 */
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+    #sign {
+        margin-left: 5%;
+    }
+
+    #article-container {
+        top: 111%;
+    }
+
+    #side-container {
+        height: 55%;
+    }
+
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+    #sign {
+        margin-left: 9%;
+    }
+
+    #nav-bar {
+        height: 100px;
+    }
+
+    .nav {
+        margin-top: 2%;
+    }
+
+    .sections {
+        font-size: 20px;
+    }
+
+    #logo {
+        font-size: 40px;
+        margin-left: 2%;
+    }
+
+    #slides {
+        width: 100%;
+        left: 0;
+        top: 6%;
+    }
+
+    .blurb {
+        font-size: 12px;
+    }
+
+    #ad {
+        width: 121%;
+        height: 88%;
+        top: -10%;
+        position: absolute;
+        margin-left: 108%;
+    }
+
+    #side-container {
+        top: 69%;
+        width: 41%;
+        height: 16%;
+        left: 3%;
+    }
+
+    .article {
+        width: 90%;
+        margin-bottom: 4%;
+        display: block;
+    }
+
+    #article-container {
+        top: 85%;
+    }
+
+    .article-blurb {
+        font-size: 30px;
+    }
+
+    .article-title {
+        font-size: 50px;
+    }
+
+    .date {
+        font-size: 25px;
     }
 
 }
