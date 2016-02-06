@@ -193,6 +193,15 @@ body {
 
 /* Media Queries */
 
+@media only screen 
+  and (min-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    #article-container {
+        top: 117%;
+    }
+}
+
 
 /* iPads */
 
