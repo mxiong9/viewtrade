@@ -50,6 +50,19 @@ body {
     cursor: pointer;
 }
 
+#menu {
+    height: 67px;
+    position: absolute;
+    left: 2%;
+    top: 105%;
+    visibility: hidden;
+}
+
+#tier {
+    visibility: hidden;
+}
+
+
 /* Today's Date */
 
 #current-date {
@@ -152,7 +165,7 @@ body {
 }
 
 #article-container {
-    top: 105%;
+    top: 111%;
     position: absolute;
     left: 10%;
     margin-bottom: 5%;
@@ -192,16 +205,6 @@ body {
 
 
 /* Media Queries */
-
-@media only screen 
-  and (min-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-
-    #article-container {
-        top: 117%;
-    }
-}
-
 
 /* iPads */
 
@@ -291,7 +294,22 @@ body {
   and (min-device-width: 320px) 
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
+  and (orientation: portrait) {
+
+    #menu {
+        visibility: visible;
+        z-index: 1;
+    } 
+
+    #tier {
+        visibility: visible;
+        background-color: rgba(0,0,0,0.7);
+        height: 89px;
+        position: absolute;
+        width: 100%;
+        top: 99%;
+        z-index: 0;
+    }
 
     #sign {
         margin-left: 67%;
@@ -302,11 +320,11 @@ body {
     }
 
     .user {
-        color: #E3E3E3;
+        color: white;
         font-size: 30px;
-        padding: 24px;
-        background-color: rgba(0,0,0,0.7);
+        padding-left: 4%;
         margin-left: 2%;
+        z-index: 1;
     }
 
     .nav {
