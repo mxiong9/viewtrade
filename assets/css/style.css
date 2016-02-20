@@ -318,6 +318,7 @@ body {
         margin-top: 0%;
         padding: 3%;
         margin-left: 0%;
+        display: none;
     }
 
     #research {
