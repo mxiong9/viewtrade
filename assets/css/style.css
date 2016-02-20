@@ -308,7 +308,24 @@ body {
         position: absolute;
         width: 100%;
         top: 99%;
-        z-index: 0;
+        z-index: -1;
+    }
+
+    .nav.sections {
+        font-size: 30px;
+        display: block;
+        background: rgba(0,0,0,0.7);
+        margin-top: 0%;
+        padding: 3%;
+        margin-left: 0%;
+    }
+
+    #research {
+        margin-top: 10.4%;
+    }
+
+    #log {
+        right: 4%;
     }
 
     #sign {
@@ -325,15 +342,12 @@ body {
         padding-left: 4%;
         margin-left: 2%;
         z-index: 1;
+        position: absolute;
+        top: 92%;
     }
 
     .nav {
         margin-top: 3%;
-    }
-
-    .nav.sections {
-        font-size: 30px;
-        margin-left: 2%;
     }
 
     #logo {
