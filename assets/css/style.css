@@ -330,7 +330,8 @@ body {
     }
 
     #sign {
-        margin-left: 67%;
+        margin-left: 0%;
+        right: 18%;
     }
 
     #nav-bar {
