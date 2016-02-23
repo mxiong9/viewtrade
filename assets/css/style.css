@@ -198,11 +198,84 @@ body {
     line-height: 3;
 }
 
-.table {
+table {
     width: 28%;
-    margin-right: 2%;
+    float: left;
+    margin-right: 2.5%;
 }
 
+tr.row1 {
+    background-color: #000E6D;
+    color: white;
+}
+
+th {
+    padding: 18px 15px 18px 0px;
+    text-align: left;
+}
+
+tr.row2 {
+    background-color: white;
+}
+
+td {
+    padding: 7px 10px 7px 0px;
+}
+
+tr.row3 {
+    background-color: #E9FDFB;
+}
+
+tr.row4 {
+    background-color: white;
+}
+
+tr.row5 {
+    background-color: #E9FDFB;
+}
+
+tr.row6 {
+    background-color: white;
+}
+
+tr.row7 {
+    background-color: #E9FDFB;
+}
+
+tr.row8 {
+    background-color: white;
+}
+
+tr.row9 {
+    background-color: #E9FDFB;
+}
+
+td.num {
+    padding-left: 12px;
+    color: #8D96A5;
+}
+
+td.sale {
+    padding-left: 13px;
+}
+
+td.company {
+    color: #000E6D;
+    font-weight: bolder;
+}
+
+td.bull {
+    color: #00882B;
+}
+
+td.bear {
+    color: #C82506;
+}
+
+img.stocks-arrow {
+    width: 15px;
+    padding-right: 5px;
+}
 
 /* Media Queries */
 
