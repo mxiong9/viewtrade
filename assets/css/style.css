@@ -149,6 +149,20 @@ body {
     height: 46%;
 }
 
+#ad2 {
+    background-color: #320914;
+    height: 100px;
+    margin-right: 11.3%;
+    margin-top: 2%;
+}
+
+#ad3 {
+    background-color: #320914;
+    margin-top: 33%;
+    margin-right: 11.3%;
+    height: 300px;
+}
+
 /* Articles */
 
 .article {
@@ -299,6 +313,10 @@ img.stocks-arrow {
         margin-left: 7%;
     }
 
+    #ad3 {
+        margin-top: 45%;
+    }
+
 }
 
 @media only screen 
@@ -339,6 +357,10 @@ img.stocks-arrow {
         top: 80%;
     }
 
+    #ad3 {
+        margin-top: 48%;
+    }
+
 }
 
 /* iPhones (iPhone 6 tested only) */
@@ -359,6 +381,10 @@ img.stocks-arrow {
 
     #side-container {
         height: 63%;
+    }
+
+    #ad3 {
+        margin-top: 48%;
     }
 
 }
@@ -519,9 +545,17 @@ img.stocks-arrow {
     }
 
     img.stocks-arrow {
-    width: 30px;
-    padding-right: 5px;
-}
+        width: 30px;
+        padding-right: 5px;
+    }
+
+    #ad2 {
+        height: 150px;
+    }
+
+    #ad3 {
+        margin-top: 238%;
+    }
 
 
 }
