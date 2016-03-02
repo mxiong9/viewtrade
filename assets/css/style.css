@@ -333,6 +333,54 @@ img.stocks-arrow {
     }
 }
 
+/* Media Queries for Shrinking Screen Size */
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+
+    #ad3 {
+        margin-top: 40%;
+    }
+
+    td {
+        font-size: 13px;
+    }
+
+    th {
+        font-size: 13px;
+        padding: 18px 10px 18px 0px;
+    }
+
+    #sign {
+        margin-left: 9%;
+    }
+
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+
+    #ad3 {
+        margin-top: 40%;
+    }
+
+    td {
+        font-size: 11px;
+    }
+
+    th {
+        font-size: 11px;
+        padding: 18px 8px 18px 0px;
+    }
+
+    #sign {
+        margin-left: 8%;
+    }
+
+    #article-container {
+        top: 96%;
+    }
+
+}
+
 
 /* iPads */
 
