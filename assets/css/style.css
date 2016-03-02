@@ -269,10 +269,6 @@ td.num {
     color: #8D96A5;
 }
 
-td.sale {
-    padding-left: 13px;
-}
-
 td.company {
     color: #000E6D;
     font-weight: bolder;
@@ -292,6 +288,54 @@ img.stocks-arrow {
 }
 
 /* Media Queries */
+
+/* No Stretching after 1600px */
+
+@media screen and (min-width: 1600px) {
+ 
+    #side-container {
+        width: 448px;
+        left: 1000px;
+    }
+
+    #slides {
+        width: 800px;
+    }
+
+    .article {
+        width: 408px;
+        margin-right: 24px;
+    }
+
+    #ad2 {
+        width: 1280px;
+    }
+
+    #ad3 {
+        width: 1276px;
+    }
+
+    table {
+        width: 402px;
+        margin-right: 35px;
+    }
+
+}
+
+@media screen and (min-width: 1850px) {
+
+    #side-container {
+        left: 1050px;
+    }
+}
+
+@media screen and (min-width: 1850px) {
+
+    #side-container {
+        left: 1080px;
+    }
+}
+
 
 /* iPads */
 
