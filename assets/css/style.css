@@ -299,7 +299,11 @@ img.stocks-arrow {
     }
 
     #slides {
-        width: 800px;
+        width: 750px;
+    }
+
+    #article-container {
+        top: 111%;
     }
 
     .article {
@@ -322,17 +326,10 @@ img.stocks-arrow {
 
 }
 
-@media screen and (min-width: 1850px) {
+@media screen and (min-width: 2300px) {
 
     #side-container {
         left: 1050px;
-    }
-}
-
-@media screen and (min-width: 1850px) {
-
-    #side-container {
-        left: 1080px;
     }
 }
 
